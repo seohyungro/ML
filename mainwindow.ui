@@ -19,29 +19,60 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>200</y>
-      <width>251</width>
-      <height>101</height>
+      <x>30</x>
+      <y>20</y>
+      <width>111</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>.AppleSystemUIFont</family>
-      <pointsize>30</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">color: rgb(201, 169, 255);</string>
     </property>
     <property name="text">
-     <string>서형</string>
+     <string>Select Data File</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>30</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 231, 227);
+color: rgb(109, 65, 81);</string>
+    </property>
+    <property name="text">
+     <string>Browse</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>241</width>
+      <height>171</height>
+     </rect>
     </property>
    </widget>
   </widget>
